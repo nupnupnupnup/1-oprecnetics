@@ -27,7 +27,7 @@ jobs:
       with:
         context: .
         push: true
-        tags: ${{ secrets.DOCKER_USERNAME }}/health-api:latest
+        tags: ${{ secrets.DOCKER_USERNAME }}/health:latest
 
     - name: SSH to VPS and Deploy
       uses: appleboy/ssh-action@v1.0.0
