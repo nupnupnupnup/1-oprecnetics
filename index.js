@@ -11,7 +11,7 @@ app.get('/health', (req, res) => {
   const uptime = process.uptime(); // in seconds
 
   res.json({
-    nama: "iqy",
+    nama: "Tunas Bimatara Chrisnanta Budiman",
     nrp: "5025231999",
     status: "UP",
     timestamp: currentTime.toISOString(),
