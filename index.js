@@ -6,7 +6,7 @@ const port = 3000;
 
 const startTime = Date.now();
 
-app.get('/health', (req, res) => {
+app.get('/healthybanget', (req, res) => {
   const currentTime = new Date();
   const uptime = process.uptime(); // in seconds
 
