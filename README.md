@@ -110,6 +110,7 @@ docker run -p 3000:3000 health-api
 4. Setelah berhasil membuat instance, buat access token pada VPS
    ```
    ssh-keygen -t rsa -b 2048 -f ~/.ssh/gcp_key
+   cat ~/.ssh/id_rsa.pub
    ```
    insert key pada:
 
@@ -165,7 +166,7 @@ docker run -p 3000:3000 health-api
     on:
       push:
         branches:
-          - main  
+          - master  
     
     jobs:
       build-and-deploy:
