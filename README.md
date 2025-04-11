@@ -45,8 +45,8 @@ app.get('/health', (req, res) => {
   const uptime = process.uptime();
 
   res.json({
-    nama: "Tunas Bimatara Chrisnanta Budiman",
-    nrp: "5025231999",
+    nama: "(sesuaikan)",
+    nrp: "(sesuaikan)",
     status: "UP",
     timestamp: currentTime.toISOString(),
     uptime: `${Math.floor(uptime)} seconds`
@@ -149,7 +149,7 @@ docker run -p 3000:3000 health-api
 
     ![image](https://github.com/user-attachments/assets/6656dd69-7867-483b-b702-164b926b0acb)
 
-12. Untuk mendeploy API. Lakukan langkah yang sama pada point A, namun dilakukan pada SSH vps.
+12. Untuk mendeploy API. Lakukan langkah yang sama pada point 1, namun dilakukan pada SSH vps.
 
     ![image](https://github.com/user-attachments/assets/e552d4a4-f56e-4e62-a9af-72d415264deb)
 
