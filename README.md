@@ -165,7 +165,7 @@ docker run -p 3000:3000 health-api
     on:
       push:
         branches:
-          - main  # atau "master" sesuai dengan branch utama kamu
+          - main  
     
     jobs:
       build-and-deploy:
