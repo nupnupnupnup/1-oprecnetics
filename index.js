@@ -8,11 +8,11 @@ const startTime = Date.now();
 
 app.get('/health', (req, res) => {
   const currentTime = new Date();
-  const uptime = process.uptime(); // in seconds
+  const uptime = process.uptime(); 
 
   res.json({
-    nama: "Tunas Bimatara Chrisnanta Budiman",
-    nrp: "5025231999",
+    nama: "M. Rifqy Febryantono",
+    nrp: "5025231106",
     status: "UP",
     timestamp: currentTime.toISOString(),
     uptime: `${Math.floor(uptime)} seconds`
